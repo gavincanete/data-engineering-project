@@ -1,3 +1,4 @@
 shoe_database.ini
 __pycache__/
 .ipynb_checkpoints/
+dataEnv/

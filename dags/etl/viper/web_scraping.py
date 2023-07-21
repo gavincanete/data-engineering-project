@@ -35,13 +35,13 @@ def shoe_extraction_with_two_columns(type='men'):
     for stock in stocks:
         temp = stock.split()
         temp[0] = temp[0].replace('stock#','')
-        temp[0] = re.sub('-[a-z]*[A-Z]*', '', temp[0])
-        
+        temp[0] = re.sub('-[a-z]*[A-Z]*', '', temp[0])              
+
         formatted_stock = {
             'stock_number': temp[0], 
             'color': temp[1], 
-            'sizes': ' '.join(temp[4:8]), 
-            'description': ' '.join(temp[8:])
+            'sizes': ' '.join(temp[4:8]) if '1/2' in temp else ' '.join(temp[4:7]),
+            'description': ' '.join(temp[8:]) if '1/2' in temp else ' '.join(temp[7:])
         }
         formatted_stocks.append(formatted_stock)
 

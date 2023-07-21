@@ -1,12 +1,13 @@
 # Viper Data Pipeline
-End-to-End project for extracting viper shoes </br>
-The objective of this project is to be be able to view the list of shoes from the Jupyter notebook. <br>
+End-to-End project for viewing viper shoes in pandas table form. </br>
+<i>The objective of this project is to be be able to view the list of shoes from the Jupyter notebook.</i> <br>
 
 <b>From this:</b> </br>
-![Screenshot from 2023-07-20 19-37-09](https://github.com/gavincanete/viper-data-pipeline/assets/33832344/51b2bb2d-ad62-4f60-8f0c-d8780854c4a3)
+![Screenshot from 2023-07-21 15-36-05](https://github.com/gavincanete/viper-data-pipeline/assets/33832344/226e3ec3-cf6b-431a-a353-729c64125e1a)
 
 <b>To this:</b> </br>
-![Screenshot from 2023-07-20 19-38-55](https://github.com/gavincanete/viper-data-pipeline/assets/33832344/f06e53cf-61a1-4e69-ad77-ef9040bfc985)
+![Screenshot from 2023-07-21 15-35-03](https://github.com/gavincanete/viper-data-pipeline/assets/33832344/cfa07a23-9087-4cb4-bdbc-a291f33391f2)
+
 
 ## Data Flow
 ![viper_data_pipeline](https://github.com/gavincanete/viper-data-pipeline/assets/33832344/369fade7-c978-4607-8763-44ef7cd1571c) </br>
@@ -44,7 +45,8 @@ Applying Web scraping (BeautifulSoup) to extract the information from the shoes 
 6) Under Notebook, Select <i>Shoe Visualizer</i>
 7) Execute each code provided </br>
    [Output] </br>
-   ![Screenshot from 2023-07-20 19-29-42](https://github.com/gavincanete/viper-data-pipeline/assets/33832344/ee5433d8-1d50-47d2-bda3-9bceb8aba5f0)
+   ![Screenshot from 2023-07-21 15-35-29](https://github.com/gavincanete/viper-data-pipeline/assets/33832344/f055e98e-b79b-42e7-9a6c-3e82c8c30df7)
+
 
 
    
